@@ -1,0 +1,256 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+*{
+margin:0; 
+padding:0; 
+}
+
+
+/*Fonts*/
+
+@font-face{
+	font-family: 'OpenSans-Regular';
+	src: url('../assets/OpenSans-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'OpenSans-Light';
+	src: url('../assets/OpenSans-Light.ttf');
+}
+
+@font-face{
+	font-family: 'OpenSans-SemiBold';
+	src: url('../assets/OpenSans-SemiBold.ttf');
+}
+
+@font-face{
+	font-family: 'OpenSans-Bold';
+	src: url('../assets/OpenSans-Bold.ttf');
+}
+
+@font-face{
+	font-family: 'SixCaps';
+	src: url('../assets/SixCaps.ttf');
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../assets/Raleway.ttf');
+}
+
+
+header p {
+	font-family: 'OpenSans-SemiBold', sans-serif;
+	background-color: #303030;
+	color: white;
+	text-align: center;
+	font-size: 0.875em;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: center;
+	padding: .25em;
+}
+
+
+.logo {
+  	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50px;
+	margin-top: .25em;
+	margin-bottom: .25em;
+	/*bron afbeelding centreren:https://www.w3schools.com/howto/howto_css_image_center.asp*/
+}
+
+
+main {
+	text-align: center;
+}
+
+
+.sfeerfoto {
+	width: 50%;
+	padding-top: 0;
+}
+
+#name{
+	font-family: 'SixCaps', sans-serif; 
+	font-size: 34px;
+	font-weight: normal;
+	color: #303030;
+	margin-bottom: 0;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/*Sections*/
+
+section:nth-child(2) {
+	padding-top: 3em;
+	padding-bottom: 1em;
+}
+
+section:nth-child(3) {
+	background-color: #F6F6F6;
+	margin-left: 0;
+	padding-top: 5.5em;
+	padding-bottom: 5.5em;
+}
+
+section:nth-child(4) {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+section:nth-child(5) {
+	background-color: #565656;
+}
+
+section:nth-child(6) {
+	padding-top: 5.5em;
+	padding-bottom: 5.5em;
+}
+
+
+h2 {
+	font-family: 'OpenSans-Bold', sans-serif;
+	letter-spacing: 0.20em;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	color: #303030;
+}
+
+h3 {
+	font-family: 'OpenSans-Bold', sans-serif;
+	letter-spacing: 0.20em;
+	font-size: 0.8em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+p {
+	color: #606060;
+	font-size: 0.875em;
+	font-family: 'OpenSans-Light', sans-serif;
+	line-height: 2em;
+	margin-top: 1em;
+	margin-left: 3em;
+	margin-right: 3em;
+
+}
+
+strong {
+	font-family: 'OpenSans-SemiBold', sans-serif;
+	letter-spacing: 0.20em;
+	font-size: 0.75em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+q {
+	quotes: none;
+	/*https://www.w3schools.com/html/html_quotation_elements.asp & https://developer.mozilla.org/en-US/docs/Web/CSS/quotes*/
+	color: #606060;
+	font-size: 1em;
+	font-family: Georgia;
+	line-height: 2em;
+	font-style: italic;
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+/*Span*/
+
+span {
+	font-family: 'Raleway', sans-serif;
+}
+
+span.cijfer {
+	font-size: 4em;
+	font-weight: 500;
+}
+
+span.aantal {
+	font-size: 2em;
+	font-weight: 200;
+}
+
+/*Links*/
+
+a.product {
+	font-family: 'OpenSans-Bold', sans-serif;
+	letter-spacing: 0.20em;
+	font-size: 0.875em;
+	text-transform: uppercase;
+	color: #303030;
+	font-weight: 200;
+	text-decoration: none;
+}
+
+a.product:hover {
+	color: #F2B544;
+}
+
+a.cta {
+	color: #F2B544;
+	text-decoration: none;
+}
+
+/*Images*/
+
+section img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding-top: 3em;
+	padding-bottom: 2em;
+}
+
+img.gall {
+	width: 125px;
+}
+
+img.tpw {
+	width: 75px;
+}
+
+/*Footer*/ 
+
+footer {
+	background-color: black;
+	color: white;
+	padding-top: 3em;
+	padding-left: 3em;
+}
+
+footer a {
+	color: #BBBBBB;
+	display: block;
+	font-family: 'OpenSans-Light', sans-serif;
+	text-decoration: none;
+	font-size: 0.875em;
+	line-height: 3em;
+}
+
+footer a:hover {
+	color: #F2B544;
+}
+
+address {
+	color: #BBBBBB;
+	font-family: 'OpenSans-Light', sans-serif;
+	font-size: 0.875em;
+	font-style: normal;
+
+}

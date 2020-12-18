@@ -1,0 +1,195 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+*{
+margin:0; 
+padding:0; 
+}
+
+
+@font-face{
+	font-family: 'OpenSans-Regular';
+	src: url('../assets/OpenSans-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'OpenSans-Light';
+	src: url('../assets/OpenSans-Light.ttf');
+}
+
+@font-face{
+	font-family: 'OpenSans-SemiBold';
+	src: url('../assets/OpenSans-SemiBold.ttf');
+}
+
+@font-face{
+	font-family: 'SixCaps';
+	src: url('../assets/SixCaps.ttf');
+}
+
+header p {
+	font-family: 'OpenSans-SemiBold', sans-serif;
+	background-color: #303030;
+	color: white;
+	text-align: center;
+	font-size: 0.875em;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: center;
+	padding: .25em;
+}
+
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  margin-top: .25em;
+  margin-bottom: .25em;
+  /*bron afbeelding centreren:https://www.w3schools.com/howto/howto_css_image_center.asp*/
+}
+
+nav {
+	height: auto;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+
+
+
+
+main img{
+	margin-bottom: 0;
+	margin-top: 0;
+	width: 100%;
+	display: block;
+}
+
+main a {
+	background-color: #F5F5F5;
+	text-align: center;
+	color: #575757;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	display: block;
+	text-transform: uppercase;
+	font-family: 'OpenSans-SemiBold', sans-serif;
+	letter-spacing: 0.1em;
+	font-size: 0.8125em;
+	font-weight: normal;
+	text-decoration: none;
+	transition: .25s
+}
+
+
+main a:hover {
+	background-color: #DEDEDE;
+}
+
+
+section {
+	margin: 2em;
+}
+
+h1 {
+	background-color: black;
+	color: white;
+	font-family: 'SixCaps', sans-serif; 
+	font-size: 2.5em;
+	letter-spacing: 0.1em;
+	font-weight: 100;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 1.25em;
+	padding-bottom: 1.25em;
+}
+
+
+h2 {
+	font-family: 'SixCaps', sans-serif;
+	font-size: 2em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 100;
+	color: #303030;
+	margin-top: 1em;
+}
+
+h3 {
+	font-family: 'OpenSans-Regular', sans-serif;
+	font-size: 0.875em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 3em;
+	padding-top: 1.25em;
+	padding-bottom: 1.25em;
+}
+
+span.prijs {
+	font-family: 'OpenSans-SemiBold', sans-serif;
+	font-size: 0.875em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #303030;
+	/*border-bottom: solid #F2B544 2px;
+	border-spacing: 5px;
+	/*divider: https://www.w3schools.com/howto/howto_css_dividers.asp*/
+}
+
+
+p {
+	color: #606060;
+	font-size: 0.875em;
+	font-family: 'OpenSans-Light', sans-serif;
+	line-height: 2em;
+	margin-top: 2em;
+	margin-bottom: 2em: 
+}
+
+
+li {
+	color: #606060;
+	font-size: 0.875em;
+	font-family: 'OpenSans-Light', sans-serif;
+	line-height: 2em;
+	margin-left: 2em;
+
+}
+
+/*ul {
+	margin-top: 2em;
+}*/
+
+/*Footer*/
+
+footer {
+	background-color: black;
+	color: white;
+	padding-top: 3em;
+	padding-left: 3em;
+}
+
+footer a {
+	color: #BBBBBB;
+	display: block;
+	font-family: 'OpenSans-Light', sans-serif;
+	text-decoration: none;
+	font-size: 0.875em;
+	line-height: 3em;
+}
+
+footer a:hover {
+	color: #F2B544;
+}
+
